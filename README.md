@@ -64,30 +64,11 @@ Follow these steps to run the Real Time Chat App locally:
    npm install
    ```
 
-4. **DB Quries:**
-
-   ```bash
-   CREATE DATABASE chatapplication;
-
-   -- Create the users table
-      CREATE TABLE users (
-       id SERIAL PRIMARY KEY,
-       username VARCHAR(255) NOT NULL,
-       email VARCHAR(255) NOT NULL UNIQUE,
-       password VARCHAR(255) NOT NULL
-      );
-
-   -- Create the messages table
-      CREATE TABLE messages (
-        id SERIAL PRIMARY KEY,
-        message TEXT NOT NULL,
-        timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-     );
-
+   ```
 
    ```
 
-5. **Run:**
+4. **Run:**
 
 - `Start Project`
   ```bash
@@ -95,10 +76,12 @@ Follow these steps to run the Real Time Chat App locally:
   ```
 - `For Chat`
   open console 1 and 2
+
   ```bash
      wscat -c ws://localhost:8080
 
   ```
+
 - `Test Project`
 
   ```bash
