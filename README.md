@@ -24,8 +24,7 @@ Welcome to Real Time Chat Application! This application provides a platform for 
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Author](#author)
+
 
 ## Features
 
