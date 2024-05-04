@@ -96,7 +96,7 @@ Follow these steps to run the Real Time Chat App locally:
 - **Join Chat Rooms:** Users can join existing chat rooms to participate in conversations.
 - **Send Messages:** Users can send messages in chat rooms, and the messages will be displayed in real-time to other users in the same chat room.
 - **Create Chat Rooms:** Admin users can create new chat rooms and manage them.
-- **Logout:** Users can log out of their accounts to end their session securely.
+
 
 
 ### Authentication
@@ -104,13 +104,6 @@ Follow these steps to run the Real Time Chat App locally:
 - **POST /api/auth/register:** Register a new user.
 - **POST /api/auth/login:** Log in an existing user.
 
-### Messages
-
-- **GET /api/messages:** Get all messages.
-- **POST /api/messages:** Send a new message.
-- **GET /api/messages/:id:** Get details of a specific message.
-- **PUT /api/messages/:id:** Update details of a message.
-- **DELETE /api/messages/:id:** Delete a message.
 
 ## Code Structure
 
@@ -118,9 +111,9 @@ The project follows a structured directory layout for better organization:
 
 - **config/**
 - **coverage/**
-- **controllers**
+- **src**
 - **Jmeter Testing**
 - **test**
-- **server.js**
+- **app.js**
 - **README.md**
 
