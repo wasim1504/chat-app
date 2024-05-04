@@ -23,9 +23,6 @@ Welcome to Real Time Chat Application! This application provides a platform for 
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Author](#author)
@@ -102,7 +99,6 @@ Follow these steps to run the Real Time Chat App locally:
 - **Create Chat Rooms:** Admin users can create new chat rooms and manage them.
 - **Logout:** Users can log out of their accounts to end their session securely.
 
-## API Endpoints
 
 ### Authentication
 
@@ -129,4 +125,3 @@ The project follows a structured directory layout for better organization:
 - **server.js**
 - **README.md**
 
-## Author
